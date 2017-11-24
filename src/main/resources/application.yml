@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers:
+      - 10.169.0.214:9092
+      - 10.169.0.218:9092
+      - 10.169.0.219:9092
+    consumer:
+      group-id: "logstash_test"
+
